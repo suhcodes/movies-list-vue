@@ -1,12 +1,6 @@
 import { createStore } from 'vuex'
+import cards from './modules/cards'
 
 export default createStore({
-  state: {
-  },
-  mutations: {
-  },
-  actions: {
-  },
-  modules: {
-  }
+  modules: { cards }
 })
