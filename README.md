@@ -1,6 +1,6 @@
 <div align="center">
-    <img width=150 height=150 src="./public/logo.png" title="Demo" />
-    <h1 style="margin-top: 0px">Vue 3 Webapp Demo    </h1>
+  <img width=150 height=150 src="./public/logo.png" title="Demo" />
+  <h1 style="margin-top: 0px">Vue 3 Webapp Demo    </h1>
 </div>
 
 A vue webapp that integrates with an API gateway and a Storybook component library.
