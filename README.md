@@ -180,11 +180,11 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ---
 
-## Guia para inicializar a aplicação:
+## Guia para inicializar a aplicação/projeto:
 #### Definir o tamanho do escopo:
 1. Quão grande é a aplicação? Ela pode ser dividida em mais de um escopo?
 2. Quantos times irão trabalhar? Frontends? Full-stacks? UI/UX?
-3. A aplicação é feita para validar um modelo de negócio?
+3. A aplicação é feita para validar um modelo de negócio? É uma refatoração?
 4. Precisa ser um monolito? Tem recursos suficientes para um micro-frontend?
 
 #### Delegar responsabilidades:
@@ -195,3 +195,4 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 2. Pensar em como unificar a experiência do usuário
 3. Desenvolver testes para cada parte
+
