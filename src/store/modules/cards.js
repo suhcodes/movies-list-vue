@@ -6,16 +6,12 @@ const options = {
   url: 'my-vue-demo.com'
 }
 
-const GatewayInstance = new GatewayService(options)
+const Gateway = new GatewayService(options)
+const GatewayInstance = Gateway
 
 const cards = {
   state: {
-    cards: [{
-      content: {
-        title: 'My title',
-        text: 'My paragraph for this cards.'
-      }
-    }]
+    cards: []
   },
   getters: {
     cards (state) {
@@ -29,10 +25,7 @@ const cards = {
   },
   actions: {
     GET_CARDS ({ commit }) {
-      const cards = []
-      GatewayInstance.cards.getCards()
-        .then(() => commit('setCards', cards))
-        .catch(err => err)
+      commit('setCards', GatewayInstance.cards.getCards())
     }
   }
 }

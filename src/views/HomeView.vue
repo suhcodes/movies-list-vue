@@ -22,6 +22,9 @@ export default {
         previous: true
       }
     }
+  },
+  beforeMount () {
+    this.$store.dispatch('GET_CARDS')
   }
 }
 </script>
