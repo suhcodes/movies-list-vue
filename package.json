@@ -9,9 +9,9 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "components": "git@github.com:suhcodes/storybook-demo.git#develop",
+    "components": "github:suhcodes/storybook-demo#develop",
     "core-js": "^3.6.5",
-    "gateway": "git@github.com:suhcodes/gateway-demo.git#develop",
+    "gateway": "github:suhcodes/gateway-demo#develop",
     "register-service-worker": "^1.7.1",
     "vue": "^3.0.0",
     "vue-router": "^4.0.0-0",

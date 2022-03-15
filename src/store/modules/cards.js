@@ -1,4 +1,12 @@
+import GatewayService from 'gateway'
 
+// TODO: set those as var envs
+const options = {
+  env: 'development',
+  url: 'my-vue-demo.com'
+}
+
+const GatewayInstance = new GatewayService(options)
 
 const cards = {
   state: {
@@ -22,7 +30,9 @@ const cards = {
   actions: {
     GET_CARDS ({ commit }) {
       const cards = []
-      commit('setCards', cards)
+      GatewayInstance.cards.getCards()
+        .then(() => commit('setCards', cards))
+        .catch(err => err)
     }
   }
 }
