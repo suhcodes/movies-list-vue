@@ -181,20 +181,4 @@ npm run lint
 ##### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
----
-## Guia para inicializar a aplicação/projeto:
-#### Definir o tamanho do escopo:
-1. Quão grande é a aplicação? Ela pode ser dividida em mais de um escopo?
-2. Quantos times irão trabalhar? Frontends? Full-stacks? UI/UX?
-3. A aplicação é feita para validar um modelo de negócio? É uma refatoração?
-4. Precisa ser um monolito? Tem recursos suficientes para um micro-frontend?
-
-#### Delegar responsabilidades:
-1. Dividir a aplicação em pelo menos 3 partes
-   1. times
-   2. especialidades
-   3. escopos
-
-2. Pensar em como unificar a experiência do usuário
-3. Desenvolver testes para cada parte
 
