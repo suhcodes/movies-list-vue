@@ -1,9 +1,12 @@
 <div align="center">
-  <img width=150 height=150 src="./public/logo.png" title="Demo" />
-  <h1 style="margin-top: 0px">Vue 3 Webapp Demo    </h1>
+    <img width=150 height=150 src="./public/logo.png" title="demo" />
+    <h1 style="margin-top: 0px">Demo
+    </h1>
 </div>
 
+### Vue 3 Webapp Demo
 A vue webapp that integrates with an API gateway and a Storybook component library.
+
 <br>
 
 ## Getting Started
@@ -179,7 +182,6 @@ npm run lint
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ---
-
 ## Guia para inicializar a aplicação/projeto:
 #### Definir o tamanho do escopo:
 1. Quão grande é a aplicação? Ela pode ser dividida em mais de um escopo?
